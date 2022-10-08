@@ -20,3 +20,12 @@ nav ul li{
 nav button{
     padding: 6px 10px;
 }
+
+.hero{
+    display: flex;
+}
+
+.hero-img img{
+    width: 100%;
+    height: 100vh;
+}
