@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 12px;
+    display: inline-block;
+}
+
+nav button{
+    padding: 6px 10px;
+}
