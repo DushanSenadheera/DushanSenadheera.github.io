@@ -21,11 +21,20 @@ nav{
 
 nav h1{
     color: #3F37C9;
+    letter-spacing: 2px;
 }
 
 nav ul li{
     padding: 12px;
     display: inline-block;
+}
+
+nav ul li a{
+    color: black;
+}
+
+nav ul li a:hover{
+    text-decoration: 2px underline #3F37C9;
 }
 
 nav button{
@@ -55,6 +64,10 @@ main{
     left: 50%;
     transform: translate(-50%,-50%);
     position: relative;
+}
+
+.hero-description span{
+    color: #3F37C9;
 }
 
 .hero-description h3{
@@ -88,4 +101,13 @@ main{
     background-color: #3F37C9;
     color: white;
     border-radius: 2px;
+}
+
+.technologies img{
+    justify-content: space-around;
+    align-items: center;
+    width: 82px;
+    height: auto;
+    display: inline-block;
+    padding: 18px;
 }
