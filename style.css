@@ -20,6 +20,7 @@ nav{
 }
 
 nav h1{
+    cursor: pointer;
     color: #3F37C9;
     letter-spacing: 2px;
 }
@@ -38,6 +39,7 @@ nav ul li a:hover{
 }
 
 nav button{
+    cursor: pointer;
     padding: 6px 10px;
     background-color: #3F37C9;
     color: white;
@@ -79,6 +81,15 @@ main{
     font-size: 28px;
 }
 
+.cta button{
+    cursor: pointer;
+    background-color: #3F37C9;
+    color: white;
+    border: 2px solid #3F37C9;
+    padding: 8px 16px;
+    border-radius: 4px 8px;
+}
+
 .hero-img{
     width: 60%;
 }
@@ -96,12 +107,19 @@ main{
     justify-content: space-around;
 }
 
+.service img{
+    width: 128px;
+    height: auto;
+}
+
 .service{
+    cursor: pointer;
+    width: 20%;
+    box-shadow: 1px 2px 6px 2px rgba(34, 34, 34, 0.315);
     padding: 12px;
     text-align: center;
-    background-color: #3F37C9;
-    color: white;
-    border-radius: 2px;
+    color: #3F37C9;
+    border-radius: 4px;
 }
 
 .technologies img{
@@ -111,4 +129,47 @@ main{
     height: auto;
     display: inline-block;
     padding: 18px;
+}
+
+.portfolio img{
+    width: 100%;
+    height: auto;
+    padding: 14px;
+}
+
+.about-description{
+    display: flex;
+}
+
+.about-description p{
+    padding: 18px;
+    text-align: justify;
+}
+
+.about-description img{
+    width: 256px;
+    height: auto;
+    border-radius: 4px 8px;
+}
+
+.contact img{
+    width: 84px;
+    height: auto;
+    padding: 18px;
+}
+
+footer{
+    background-color: #3F37C9;
+    color: white;
+    padding: 16px;
+}
+
+.social img{
+    padding: 12px;
+    width: 48px;
+    height: auto;
+}
+
+footer small{
+    color: rgba(255, 255, 255, 0.521);
 }
