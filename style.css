@@ -100,6 +100,11 @@ main{
     height: 100vh;
 }
 
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
 .services{
     padding: 18px;
     display: flex;
@@ -162,6 +167,11 @@ footer{
     background-color: #3F37C9;
     color: white;
     padding: 16px;
+}
+
+hr{
+    border: none;
+    outline: 0.75px solid;
 }
 
 .social img{
