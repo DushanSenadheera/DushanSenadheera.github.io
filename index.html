@@ -8,21 +8,23 @@
     <title>Dushan Senadheera | Portfolio</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav>
             <h1>Dushan_Senadheera</h1>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <button>Download CV</button>
+            <a href="assets/Dushan Senadheera.pdf" download="Dushan Senadheera CV">
+                <button>Download CV</button>
+            </a>
         </nav>
     </header>
     <main>
-        <div class="hero">
+        <div class="hero" id="home">
             <div class="hero-content">
                 <div class="hero-description">
                     <h3>
@@ -79,10 +81,7 @@
                 <img src="assets/slack.png" alt="">
             </div>
         </div>
-        <div class="banner">
-            <img src="assets/Dushan Senadheera.png" alt="">
-        </div>
-        <h3 class="title">Services</h3>
+        <h3 class="title" id="services">Services</h3>
         <div class="services">
             <div class="service">
                 <img src="assets/web dev.png" alt="">
@@ -105,18 +104,18 @@
                 <p>service description here</p>
             </div>
         </div>
-        <h3 class="title">Portfolio</h3>
+        <h3 class="title" id="portfolio">Portfolio</h3>
         <div class="portfolio">
             <img src="assets/photo-grid.png" alt="">
         </div>
-        <h3 class="title">About</h3>
+        <h3 class="title" id="about">About</h3>
         <div class="about-description">
             <div class="about-container">
                 <p>
                     Hiii, <br>
                     I am Dushan Senadheera, I am a innovative, skillful undergraduate software engineer who follows BSc (Hons) Software Engineering degree program in NSBM Green University, Sri Lanaka that affiliates with University of Plymouth, UK. I am a person who loves to develop new skills and improve my current skills, my specialities are designing and developing web & mobile applications and I am a developing and designing enthusiast
                 </p>
-                <h3 class="title">Get in touch</h3>
+                <h3 class="title" id="contact">Get in touch</h3>
                 <div class="contact">
                     <img src="assets/email.png" alt="">
                     <img src="assets/facebook-logo-2019.png" alt="">
@@ -132,7 +131,7 @@
     </main>
     <footer>
         <h3>Dushan Senadheera</h3>
-        <h5>Software Engineer | Digital Creator</h5>
+        <h6>Software Engineer | Digital Creator</h6>
         <div class="social">
             <img src="assets/email.png" alt="">
             <img src="assets/facebook-logo-2019.png" alt="">
