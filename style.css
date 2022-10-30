@@ -26,7 +26,7 @@ button{
     width: 100%;
     padding: 8px;
     position: fixed;
-    /* box-shadow: 2px 2px 12px rgba(129, 129, 129, 0.521); */
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.479); 
 }
 
 nav{
@@ -193,9 +193,10 @@ main{
 }
 
 footer{
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.479); 
     border-radius: 0px 42px 0px 0px;
     text-align: center;
-    color: white;
+    color: #7FDBCA;
     padding: 16px;
 }
 
