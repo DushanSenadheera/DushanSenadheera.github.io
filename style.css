@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -6,23 +6,27 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Space Mono', monospace;
     scroll-behavior: smooth;
+    background-color: #011627;
+}
+
+button{
+    font-weight: bolder;
 }
 
 .title{
     padding-top: 14px;
     padding-bottom: 14px;
-    color: #3F37C9;
+    color: #7FDBCA;
 }
 
 #header{
     z-index: 1000;
     width: 100%;
-    background-color: white;
-    box-shadow: 2px 2px 12px rgba(129, 129, 129, 0.521);
     padding: 8px;
     position: fixed;
+    /* box-shadow: 2px 2px 12px rgba(129, 129, 129, 0.521); */
 }
 
 nav{
@@ -33,7 +37,7 @@ nav{
 
 nav h1{
     cursor: pointer;
-    color: #3F37C9;
+    color: #7FDBCA;
     letter-spacing: 2px;
 }
 
@@ -43,19 +47,20 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: #ABB2BF;
 }
 
 nav ul li a:hover{
-    text-decoration: 2px underline #3F37C9;
+    color: #ECC48D;
+    text-decoration: 2px underline #F78C6C;
 }
 
 nav button{
     cursor: pointer;
     padding: 6px 10px;
-    background-color: #3F37C9;
-    color: white;
-    border: #3F37C9 2px solid;
+    background-color: #7FDBCA;
+    color: #011627;
+    border: #7FDBCA 2px solid;
     border-radius: 4px;
 }
 
@@ -78,10 +83,11 @@ main{
     left: 50%;
     transform: translate(-50%,-50%);
     position: relative;
+    color: #ABB2BF;
 }
 
 .hero-description span{
-    color: #3F37C9;
+    color: #F78C6C;
 }
 
 .hero-description h3{
@@ -95,9 +101,9 @@ main{
 
 .cta button{
     cursor: pointer;
-    background-color: #3F37C9;
-    color: white;
-    border: 2px solid #3F37C9;
+    background-color: #7FDBCA;
+    color: #011627;
+    border: 2px solid #7FDBCA;
     padding: 8px 16px;
     border-radius: 0px 8px;
 }
@@ -130,8 +136,15 @@ main{
     box-shadow: 1px 2px 6px 2px rgba(34, 34, 34, 0.315);
     padding: 12px;
     text-align: center;
-    color: #3F37C9;
     border-radius: 4px;
+}
+
+.service h3{
+    color: #F78C6C;
+}
+
+.service p{
+    color: #ECC48D;
 }
 
 .service:hover{
@@ -164,6 +177,7 @@ main{
 .about-description p{
     padding: 18px;
     text-align: justify;
+    color: #ABB2BF;
 }
 
 .about-description img{
@@ -181,7 +195,6 @@ main{
 footer{
     border-radius: 0px 42px 0px 0px;
     text-align: center;
-    background-color: #272727;
     color: white;
     padding: 16px;
 }
@@ -206,3 +219,55 @@ footer h3,h6{
 footer small{
     color: rgba(255, 255, 255, 0.521);
 }
+
+#menu-logo{
+    display: none;
+    width: 28px;
+    height: auto;
+}
+
+#download-btn{
+    display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+    .services{
+        display: block;
+    }
+
+    .downloadCV{
+        display: none;
+    }
+
+    #download-btn{
+        display: inline;
+    }
+
+    #menu-logo{
+        display: inline;
+    }
+
+    nav{
+        display: block;
+    }
+
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+
+    #mobileLinks{
+        display: none;
+    }
+
+    #mobileNav{
+        display: block;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  }
