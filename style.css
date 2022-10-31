@@ -232,15 +232,11 @@ footer small{
 }
 
 
-@media screen and (max-width: 600px) {
-
-    header{
-        overflow: hidden;
-    }
+@media screen and (max-width: 480px) {
 
     .services{
         display: block;
-        align-content: center;
+        align-items: center;
     }
 
     .downloadCV{
@@ -253,10 +249,13 @@ footer small{
 
     #menu-logo{
         display: inline;
-        color: #7FDBCA;
     }
 
     nav{
+        display: block;
+    }
+
+    .about-description{
         display: block;
     }
 
@@ -278,4 +277,5 @@ footer small{
         align-items: center;
         justify-content: space-between;
     }
+
   }
