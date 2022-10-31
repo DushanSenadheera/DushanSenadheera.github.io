@@ -28,7 +28,7 @@
                         </a>
                     </li>
                 </ul>
-            <a class="downloadCV" href="assets/Dushan Senadheera.pdf" download="Dushan Senadheera CV">
+            <a class="downloadCV" href="" download="Dushan Senadheera CV">
                 <button>Download CV</button>
             </a>
         </nav>
