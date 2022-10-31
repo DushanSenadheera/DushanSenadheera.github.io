@@ -32,6 +32,9 @@
         </nav>
     </header>
     <main>
+        <div id="message">
+            <h4>Sorry, currently site is not available for mobile view</h4>
+        </div>
         <div class="hero" id="home">
             <div class="hero-content">
                 <div class="hero-description">

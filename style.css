@@ -231,10 +231,18 @@ footer small{
     display: none;
 }
 
+#message{
+    display: none;
+}
+
 
 @media screen and (max-width: 480px) {
 
-    header{
+    #message{
+        display: block;
+    }
+
+    /* header{
         overflow: hidden;
     }
 
@@ -275,5 +283,5 @@ footer small{
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
+    } */
   }
