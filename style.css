@@ -233,42 +233,7 @@ footer small{
 
 
 @media screen and (max-width: 480px) {
-    .services{
-        display: block;
-    }
-
-    .downloadCV{
-        display: none;
-    }
-
-    #download-btn{
-        display: inline;
-    }
-
-    #menu-logo{
-        display: inline;
-    }
-
-    nav{
-        display: block;
-    }
-
-    nav ul li{
-        display: block;
-        text-align: center;
-    }
-
-    #mobileLinks{
-        display: none;
-    }
-
-    #mobileNav{
-        display: block;
-    }
-
-    .menu{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    *{
+      display: none;
     }
   }
