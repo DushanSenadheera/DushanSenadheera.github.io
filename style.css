@@ -233,6 +233,11 @@ footer small{
 
 
 @media screen and (max-width: 480px) {
+
+    *{
+        overflow: hidden;
+    }
+
     .services{
         display: block;
     }
