@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="software engineer portfolio, portfolio, portfolio web, software engineer portfolio, dushan senadheera, dushan senadheera portfolio, web development, app development, digital content, creator, developer">
+    <meta name="description" content="Hi, I am Dushan Senadheera and I am a Software Engineer and Designer">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -12,20 +14,20 @@
         <nav>
             <div class="menu">
                 <h1>Dushan.S_</h1>
-                <img src="assets/menu.png" alt="" id="menu-logo">
+                <img src="assets/menu-1767818.png" alt="" id="menu-logo">
             </div>
-            <ul id="mobileLinks">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li>
-                    <a id="download-btn" href="assets/Dushan Senadheera.pdf" download="Dushan Senadheera CV">
-                        <button>Download CV</button>
-                    </a>
-                </li>
-            </ul>
+                <ul id="mobileLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <a id="download-btn" href="assets/Dushan Senadheera.pdf" download="Dushan Senadheera CV">
+                            <button>Download CV</button>
+                        </a>
+                    </li>
+                </ul>
             <a class="downloadCV" href="assets/Dushan Senadheera.pdf" download="Dushan Senadheera CV">
                 <button>Download CV</button>
             </a>
@@ -35,6 +37,9 @@
         <div class="hero" id="home">
             <div class="hero-content">
                 <div class="hero-description">
+                    <div class="mobile-hero-img">
+                        <img src="assets/bgtransperent.png" alt="">
+                    </div>
                     <h3>
                         <span>Hii!</span> I am <br>
                         Dushan Senadheera
@@ -91,35 +96,77 @@
         </div>
         <h3 class="title" id="services">Services</h3>
         <div class="services">
-            <div class="service">
-                <img src="assets/web dev.png" alt="">
-                <h3>Web Design & Development</h3>
-                <p>service description here</p>
-            </div>
-            <div class="service">
-                <img src="assets/app dev.png" alt="">
-                <h3>App Design & Development</h3>
-                <p>service description here</p>
-            </div>
-            <div class="service">
-                <img src="assets/graphic designer.png" alt="">
-                <h3>Graphic Designing</h3>
-                <p>service description here</p>
-            </div>
-            <div class="service">
-                <img src="assets/dev.png" alt="">
-                <h3>Desktop Application Development</h3>
-                <p>service description here</p>
-            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/web dev.png" alt="web developer">
+                    <h4>Web development & design</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>
+                        I will develop full stack 
+                        web application using 
+                        ReactJS and nodeJS
+                    </p>
+                  </div>
+                </div>
+              </div> 
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/app dev.png" alt="mobile app developer">
+                    <h4>Mobile app development & design</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>
+                       I will develop cross platform
+                       mobile application using 
+                       Flutter
+                    </p>
+                  </div>
+                </div>
+              </div> 
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/dev.png" alt="developer">
+                    <h4>Desktop application development</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>
+                       I will develop desktop
+                       application using 
+                       .NET framework
+                    </p>
+                  </div>
+                </div>
+              </div> 
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="assets/graphic designer.png" alt="graphic designer">
+                    <h4>Graphic Designing</h4>
+                  </div>
+                  <div class="flip-card-back">
+                    <p>
+                       I will do
+                       web and mobile UI design,
+                       logo design, business card 
+                       and stationery and social media
+                       design
+                    </p>
+                  </div>
+                </div>
+              </div> 
         </div>
         <h3 class="title" id="portfolio">Portfolio</h3>
         <div class="portfolio">
-            <img src="assets/photo-grid.png" alt="">
+            <img src="assets/photo-grid.png" alt="portfolio">
         </div>
         <h3 class="title" id="about">About</h3>
         <div class="about-description">
             <div class="my-img">
-                <img src="assets/about.jpeg" alt="">
+                <img src="assets/me.jpg" alt="">
             </div>
             <div class="about-container">
                 <p>
@@ -150,6 +197,6 @@
         <hr>
         <small>&copy; Copyright 2022, Dushan Senadheera. All right reserved</small>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js"></script> 
 </body>
 </html>

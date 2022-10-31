@@ -1,7 +1,7 @@
-const showNav = document.getElementById("mobileLinks");
-showNav.addEventListener("click", mobileMenu);
+const menu = document.getElementById("menu-logo")
+menu.addEventListener("click", mobileMenu)
 
 function mobileMenu() {
-   document.getElementById('menu-logo').classList.toggle('mobileNav');
+   document.getElementById('mobileLinks').classList.toggle('active')
 }
 
