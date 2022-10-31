@@ -239,7 +239,7 @@ footer small{
 @media screen and (max-width: 600px) {
 
     *{
-        display: none;
+        visibility: hidden;
     }
 
     #message{
