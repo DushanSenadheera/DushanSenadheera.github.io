@@ -236,7 +236,7 @@ footer small{
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     #message{
         display: block;
