@@ -32,9 +32,6 @@
         </nav>
     </header>
     <main>
-        <div id="message">
-            <h4>Sorry, currently site is not available for mobile view</h4>
-        </div>
         <div class="hero" id="home">
             <div class="hero-content">
                 <div class="hero-description">
@@ -43,7 +40,7 @@
                         Dushan Senadheera
                     </h3>
                     <h4>
-                        I am a, <br> <span>Software Engineer | Designer</span>
+                        I am a, <br> <span><h5>Software Engineer & Designer</h5></span>
                     </h4>
                     <div class="cta">
                         <button>Contact</button>
